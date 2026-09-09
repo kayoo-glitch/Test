@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Name: Kay Nae Oo
+Date: 9/7/2026
+--> 
+<head>
+    <link rel="stylesheet" href="main.css">
+</head>
+    <style>
+        table, th, td {
+            border:1px solid black;
+        }
+    </style>
+<body>
+    <header>
+        <h1>This is the "index.html"</h1>
+        <h2>Working With Images.</h2>
+    </header>
+    
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <table style="width:100%">
+        <tr>
+            <th>Term</th>
+            <th>Definition</th>
+        </tr>
+        <tr>
+            <td>deprecated</td>
+            <td>deprecated</td>
+        </tr>
+        <tr>
+            <td>responsive design</td>
+            <td>responsive design</td>
+        </tr>
+        <tr>
+            <td>user experience.</td>
+            <td>user experience.</td>
+        </tr>
+    </table>
 
+    <section>
+        table tr:nth-child(even) {
+            background-color: blue;}
+    </section>
+    
+    <footer>
+    </footer> 
+</body>
+</html>
